@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treasury</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"/>
+	<meta name="author" content="Ma. Jimda TM of PrazaBigazatUlam Team"/>
+	<meta name="description" content="Proposed AxieGov Treasury Dashboard MVP Hackathon July 2024"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="w3.css">
+	<style>
+		body {background-color:black; font-family: verdana; color:white; }
+		html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+		.w3-tag, .fa {cursor:pointer}
+		.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+	</style>
+</head>
+
+<body>
+<main>
+<!-- Daily Bounty Log In (should be at topright) -->
+	<div class="container ">
+		<div class="w3-top">
+			<div class="w3-row w3-large ">
+				<div class="w3-col w3-hover-border-orange w3-round-xlarge col s2">
+					<a 2href="#" class="w3-button w3-block w3-hover-orange">Daily Bounty</a>
+				</div>
+				<div class="w3-col w3-hover-border-orange w3-round-xlarge s2">
+					<a href="#" class="w3-button w3-block w3-hover-orange">Log in</a>
+				</div> 
+			</div>
+		</div>  
+	</div>
+
+<!-- Community Asset Treasury Heading -->
+	<div class="w3-content" style="max-width:1100px;margin-top:40px;margin-bottom:80px">
+		<div class="w3-panel ">
+			<h2><b font >Community Asset Treasury</b></h2>
+		</div>
+
+<!-- Community Assets Dropdown Menus -->
+<!-- When time permits, use <nav></nav> for the MAIN ASSETS -->
+	
+<!-- Put correct style syntax here for the following elements -->	
+	<style>
+	div {class="w3-dropdown-hover"}
+	button {class="w3-button w3-hover-orange"}
+	div {class="w3-dropdown-content w3-black w3-bar-block w3-border"}
+	a {class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange"}
+	</style>
+	
+<!-- IF proposed lay-out is approved, button action will be replaced with 
+	<form action="/action_page.php"><select> to enable actual data capture for displaying desired graph trend -->
+		<div class="w3-dropdown-hover"> 
+		<button class="w3-button w3-black w3-hover-orange">INFLOWS</button>
+			<div class="w3-dropdown-content w3-black w3-bar-block">
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Breeding Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">R&C Crafting Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Marketplace Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Ascension Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Minting Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Evolution Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Cosmetics Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Marketing Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Tournament Tickets</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Tournament Entry Fees</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">3rd Party License Cuts</a>
+				<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Axie Tattoos & Emotes</a>
+			</div>
+		</div>
+
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-orange">OUTFLOWS</button>
+				<div class="w3-dropdown-content w3-black w3-bar-block">
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Recovery Funds</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Treasury Fund Distibution</a>
+				</div>
+		</div>
+
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-orange">TRACKER</button>
+				<div class="w3-dropdown-content w3-black w3-bar-block">
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Period Covered</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Axie Sales ETH</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Land Item Sales</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Total Marketplace Volume TMV</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">4.5% of TMV</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Axie Breeding Spent</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Total Community Asset Earnings</a>
+				</div>
+		</div>
+
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-orange">ALLOCATION</button>
+				<div class="w3-dropdown-content w3-black w3-bar-block">
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Staking Reward</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Sky Mavis</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Play to Earn</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Public Sale</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Ecosystem Fund</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Advisors</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Private Sale</a>
+				</div>
+		</div>
+		
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-orange">STAKING</button>
+				<div class="w3-dropdown-content w3-black w3-bar-block">
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">End of Year Accrual</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Stakers Share %</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Stakers Share AXS</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Staking Issued to CT in %</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Staking Issued to CT in AXS</a>
+				</div>
+		</div>
+		
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-orange">VOTING</button>
+				<div class="w3-dropdown-content w3-black w3-bar-block">
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Latest Proposal</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Current Vote Status</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Summary</a>
+					<a href="#" class="w3-bar-item w3-button w3-hover-black w3-hover-text-orange">Your Voting Power</a>	
+				</div>
+		</div>
+		
+	</div>
+	</div>
+
+<div>
+<!-- View area for ASSETS graph trend-->
+<span> </span>
+
+</div>
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-center">
+  <a href="#" class="w3-button w3-hover-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+<!-- Footer from App.Axie-->	
+	<div class="space-module_dango-space__0d6Mn space-module_align-center__N5fdd space-module_justify-start__gdZz5 space-module_horizontal__PlJSv space-module_size-2__zQhg3">
+		<a class="MainFooter_SocialLink__NShjb" target="_blank" rel="noopener" href="https://twitter.com/AxieInfinity">
+			<svg style="fill:currentColor" viewBox="0 0 24 24" width="40" height="24">
+				<path d="M2.049 2.65 9.77 12.975 2 21.369h1.749l6.803-7.35 5.497 7.35H22l-8.156-10.905 7.232-7.814h-1.748l-6.266 6.769L8 2.649H2.05ZM4.62 3.938h2.734l12.073 16.143h-2.734L4.62 3.938Z" fill="currentColor">
+				</path>
+			</svg>
+		</a>
+		<a class="MainFooter_SocialLink__NShjb" target="_blank" rel="noopener" href="https://discord.com/invite/axie">
+			<svg style="fill:currentColor" viewBox="0 0 24 24" width="40" height="24">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M18.942 5.27A16.54 16.54 0 0 0 14.816 4c-.195.349-.372.707-.529 1.074a15.366 15.366 0 0 0-4.579 0A11.386 11.386 0 0 0 9.179 4c-1.425.243-2.814.67-4.129 1.273-2.611 3.863-3.319 7.63-2.965 11.345 1.53 1.13 3.24 1.989 5.06 2.54.41-.551.773-1.136 1.084-1.748a10.76 10.76 0 0 1-1.706-.814c.143-.104.283-.211.418-.315a11.887 11.887 0 0 0 10.118 0c.137.112.277.219.418.315-.545.321-1.117.594-1.71.816.312.612.674 1.196 1.084 1.746a16.558 16.558 0 0 0 5.064-2.539c.415-4.307-.71-8.04-2.973-11.35ZM8.678 14.333c-.987 0-1.802-.896-1.802-1.997 0-1.1.787-2.004 1.798-2.004 1.012 0 1.82.903 1.803 2.004-.017 1.101-.794 1.997-1.8 1.997Zm6.644 0c-.988 0-1.8-.896-1.8-1.997 0-1.1.787-2.004 1.8-2.004s1.816.903 1.798 2.004c-.017 1.101-.793 1.997-1.798 1.997Z" fill="currentColor">
+				</path> 
+			</svg>
+		</a>
+		<a class="MainFooter_SocialLink__NShjb" target="_blank" rel="noopener" href="https://www.youtube.com/@AxieInfinity">
+			<svg style="fill:currentColor" viewBox="0 0 24 24" width="40" height="24">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M5.14 3a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h13.72a4 4 0 0 0 4-4V7a4 4 0 0 0-4-4H5.14Zm10.071 8.106-4.764-2.382A1 1 0 0 0 9 9.618v4.764a1 1 0 0 0 1.447.894l4.764-2.382a1 1 0 0 0 0-1.788Z" fill="currentColor">
+				</path>
+			</svg>
+		</a>
+		<a class="MainFooter_SocialLink__NShjb" target="_blank" rel="noopener" href="https://www.tiktok.com/@axieinfinity?lang=en">
+			<svg style="fill:currentColor" viewBox="0 0 24 24" width="40" height="24">
+				<path d="M10 21a6 6 0 0 0 6-6V8.197c.883.51 1.907.803 3 .803h1V6h-1a3 3 0 0 1-3-3h-3v12a3 3 0 1 1-3-3V9a6 6 0 0 0 0 12Z" fill="currentColor">
+				</path>
+			</svg>
+		</a>
+	</div>
+	
+<!--Footer from w3schools-->
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-orange">w3.css</a></p>
+</footer>
+
+</main>
+</body>
+</html>
